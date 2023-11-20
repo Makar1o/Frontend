@@ -1,0 +1,31 @@
+.formats-item {
+  flex-basis: calc((100% - 40px) / 3);
+}
+
+.formats-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.format-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--colour-primary-light);
+}
+
+.formats-title {
+  margin-bottom: 80px;
+}
+
+.format-text {
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--colour-primary-light);
+}
+
+.formats-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
