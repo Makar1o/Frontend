@@ -2,21 +2,16 @@
 .advantages-section {
   padding: 16px 0;
   background-color: var(--colour-brand-normal);
-}
 
-.advantages-item {
-  color: var(--colour-primary-light);
-  font-size: 20px;
-  font-weight: 300;
-}
+  &__list {
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.advantages-list {
-  gap: 40px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.advantages-item {
-  font-size: 20px;
-  font-weight: 300;
+  &__item {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--colour-primary-light);
+  }
 }
